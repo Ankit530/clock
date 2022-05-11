@@ -1,0 +1,66 @@
+.heading
+{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 60px;
+    color: blue;
+    text-shadow: 2px 1px red;
+    font-size: 50px;
+    font-weight: bolder;
+    font-style: oblique;
+    text-decoration: underline;
+    font-family: cursive;
+    animation: animate 1.5s linear infinite;
+}
+@keyframes animate
+{
+    0%{
+
+        color: blue;
+    }
+    50%{
+        color: black;
+    }
+    100%
+    {
+        color: blue;
+    }
+}
+#switch
+{
+    margin-left: 80%;
+    border-radius: 10%;
+    font-weight: bolder;
+}
+#switch:hover
+{
+    background-color: grey;
+    color: #060920;
+}
+#time
+{
+    text-align: center;
+    font-size: 150px;
+    color: blue;
+    text-shadow: 2px 2px red;
+    animation: animate 1.5s linear infinite;
+}
+.box
+{
+    border: 5px solid black;
+    background-color: grey;
+    margin: 100px 150px;
+    padding: 0px;
+    border-radius: 50%;
+}
+#switch1
+{
+    margin-left: 1%;
+    border-radius: 10%;
+    font-weight: bolder;
+}
+#switch1:hover
+{
+    background-color: grey;
+    color: #060920;
+}

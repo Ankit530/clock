@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+    <head>
+        <title>Digital Clock</title>
+        <script type="text/javascript" src="stopwatch.js"></script>
+        <link rel="stylesheet" type="text/css" href="stopwatch.css">
+    </head>
+    <body>
+ <!--   <p id="ex"></p>   -->
+        <h1  class="heading">Stopwatch</h1>
+        <div>
+            <button id="switch"><a href="aclock.html">Analog Clock</a></button>
+            <button id="switch1"><a href="dclock.html">Digital Clock</a></button>
+        </div>
+        <div class="box">
+            <p id="time">0 : 0 : 0</p>
+        </div>
+        <div>
+            <button id="start" onclick="start(1)">Start</button>
+            <button id="stop" onclick="start(2)">Stop</button>
+            <button id="reset" onclick="reset()">Reset</button>
+        </div>
+    </body>
+</html>
